@@ -1,0 +1,1024 @@
+/*000112*
+000110
+00011c
+000100down*/
+
+
+:root{
+	--primary-color:#000110 ;
+}
+:root{
+	--secondary-color:#007AF3;
+}
+:root{
+	--third-color:#005792  ;
+}
+
+
+
+body{
+	background-image:linear-gradient(#000110,#000110);
+	margin: 2.5;
+	font-family:rockwell,microsoft sans serif,berlin sans serif,gill sans MT;
+	color: white;
+	justify-content: center;
+		
+}
+section{
+	height: 90%;
+}
+
+.navbar{
+	background: #000120;
+	padding:1em ;
+}
+
+.logo{
+	text-decoration: none;
+	font-weight: bold;
+	color:var(--secondary-color);
+	font-size: 2.2em;
+	cursor: pointer;
+}
+
+nav{
+	display: none;
+}
+.intro{
+	font-size: 1.5em;}
+
+	             /*GEM CASCADING BEGINS HERE*/
+
+h1{
+	font-size: 4em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	color: var(--secondary-color);
+}
+           /*GEM CASCADING ENDS HERE*/
+
+.wel-come{
+       font-weight: bold;
+}
+p{
+	line-height:1.5em;
+}
+            /*BUTTONS CASCADING BEGINS HERE*/
+
+.bttns{
+	display: flex;
+	
+	padding-top: 4em;
+	margin: 2em 3em 0em 2em;
+
+}
+
+
+.buy-now-bttn,.audit-bttn{
+    background-image:linear-gradient(to bottom right,blue,red);
+	color: white;
+	text-decoration: none;
+	padding:.7em 1em ;
+	font-size: 1.1em;
+	border-radius: 1.5em;
+	font-weight: bold;}
+
+	.buy-now-bttn{
+		margin-left: -.5em;
+	}
+	.audit-bttn{
+		margin-left: 1em;
+	}
+
+        /*BUTTONS CASCADING ENDS HERE*/
+	
+
+/*this centres elements*/
+.right-col{
+	max-width: 100%;
+	margin-top: 3em;/*margin=auto*/
+	align-content: center;
+	justify-content: center;
+	display: flex;
+     
+}
+          /*LOGO CASCADING BEGINS HERE*/
+
+.hero-logo{
+	font-size: 2em;
+	font-weight: bold;
+	padding-top: 3em;
+	margin-top: 3em;
+}
+
+.logo,.hero-logo{
+	color: var(--secondary-color) ;
+	text-decoration: none;
+}
+
+          /*LOGO CASCADING ENDS HERE*/
+
+
+          /*CENTERING OF SECTIONS BEGINS HERE*/
+
+.hero,.about-bottom,.services-cube,.offers,.token-metrics,.roadmap-section,.our-team-section{
+	padding: 5em 1.5em;
+	text-align: centre;
+}
+
+              /*CENTERING OF SECTIONS ENDS HERE*/
+
+              /*ABOUT CASCADING BEGINS HERE*/
+
+.about-section{
+	text-align: center;
+	
+}
+.about-top{
+	height: 120px;
+	padding: .5em;
+    background-image:linear-gradient(#000000,var(--primary-color));
+	text-align: center;
+	width: 100%;
+}
+.abt-gem{
+	font-size: 2em;
+	margin: 0em;
+	letter-spacing: 5px;
+	color: var(--secondary-color);
+	
+}
+
+.about-line{
+	margin: 1em 6em 1em 6em;
+	color: white;
+
+}
+.rekt{
+	padding:1em 1.1em 0em 1.1em ;
+	text-align: centre;
+
+}
+.about-bottom{
+	background: #000111;
+	margin-top: -0.5em;}
+
+.main{
+	margin-top: -4em;
+	padding: 1.1em;
+	font-size: 1em;
+}
+
+           /*ABOUT CASCADING BEGINS HERE*/
+
+
+    /*SERVICES TABLE BEGINS HERE*/
+
+td{
+
+	text-align: center;
+	border: 2px solid white;
+	padding:.5em; 
+	border-radius: 1.1em;
+	margin: 2em auto 2em auto;
+
+	
+
+}
+.service{
+	border-spacing: 19px 15px;
+	margin: 0em auto;
+	width: 23em;
+
+	
+
+
+}
+
+      /*SERVICES TABLR ENDS HERE*/
+
+
+          
+           /*OFFERS CASCADING BEGINS HERE*/
+
+.offers-title{
+	font-size: 2em;
+	margin-top: -2em;
+	letter-spacing:1px;
+	color: var(--secondary-color);
+	text-align: center;
+
+}
+.offers-line{
+	margin: 1em 6em 3em 6em;
+	color: white;
+}
+.off-list{
+	line-height: 1.1em;
+	font-size: 1.2em;
+}
+
+li{
+	margin: 1.5em 0em;
+}
+
+
+            /*OFFERS CASCADING ENDS HERE*/
+
+
+
+.tokenomics{}/*COME BACK TO FIX IMAGE*/
+
+
+ /*TOKEN METRICS CASCADING BEGINS HERE*/
+
+.token-metrics-word{
+   	font-size: 2em;
+	margin-top: -2em;
+	letter-spacing:1px;
+	color: var(--secondary-color);
+	text-align: center;
+
+}
+.col-1,.col-2{
+	/*COME BACK HERE*/
+    border-spacing: 3em 0em;
+    border: 3px solid;
+	margin: 3px auto;
+	text-align: center;
+	justify-content:right ;
+	width: 20em;
+    background-image:linear-gradient(to bottom right,blue,purple);
+	border: 2px solid ;
+	padding: .5em;
+	border-radius: 1em;
+
+}
+.col-1{
+	margin-bottom: 1.5em;
+}
+.col-2{
+	margin-bottom: 2.5em;
+}
+.token-table{
+	border-spacing: 19px 15px;
+	margin-top:;
+	width: 23em; 
+	height:20em;
+	margin: 0em auto;
+}
+
+	.t-1,.t-2,.t-3,.t-4{
+	  background-image:linear-gradient(to bottom right,blue,darkred);
+	text-align: center;
+	border: 2px solid ;
+	padding: .3em;
+	border-radius: 1.1em;
+	margin: 2em auto;
+
+}
+span{
+	font-weight: bold;
+
+}
+
+
+
+
+
+ /*TOKEN METRICS CASCADING ENDS HERE*/
+
+
+
+ 
+
+
+
+}
+.token-metrics-container{
+
+}
+
+ /*ROADMAP  CASCADING BEGINS HERE*/
+
+.roadmap-section{
+	
+	
+}
+.roadmap-container{
+	padding: .5em;
+	width: 100%;
+	line-height:.1em ;
+
+		
+}
+.road-map{
+    font-size: 2em;
+	margin: 0em;
+	letter-spacing: 2px;
+	color: var(--secondary-color);
+	text-align: center;
+	font-weight: bold;
+
+
+}
+
+.phase-1-box,.phase-2-box,.phase-3-box{
+	
+	border-radius: 1.5em;
+	border:3px solid #000000;
+	cursor: pointer;
+	transition: transform 200ms ease-in;
+	margin: 1em auto;
+}
+
+.phase-1,.phase-2,.phase-3{
+	font-size: 1.5em;
+	margin:1em 0em 1.5em 1em;
+	color: var(--secondary-color);
+
+
+}
+
+.phase-1-list,.phase-2-list,.phase-3-list{
+
+	margin-left: 1.5em;
+}
+
+
+
+
+
+
+  /*ROADMAP CASCADING ENDS HERE*/
+
+
+   /*OURTEAM CASCADING BEGINS HERE*/
+   .our-team-container{
+
+    border-spacing: 3em 0em;	
+    justify-content: center;
+   }
+   .ourteam{
+   	font-size: 2em;
+	margin: 0em 0em 1.5em 0em;
+	letter-spacing: 2px;
+	color: var(--secondary-color);
+	text-align: center;
+	font-weight: bold;
+
+   }
+
+  .coll-1,.coll-2,.coll-3,.coll-4,.coll-5{
+	border: 3px solid;
+	margin: 3em auto 3em auto;
+	height: 18em;
+	width: 16em;
+	border-radius: 3em;
+	text-align: center;
+	padding: .5em;
+	
+
+}
+.c1,.c2,.c3,.c4,.c5{
+
+	margin-top: 7em;
+}
+b{
+	color: var(--secondary-color);
+	font-size: 1.3em;
+}
+
+
+
+
+
+
+    /*OURTEAM CASCADING ENDS HERE*/
+
+    /*cCONTACTS CASCADING BEGINS HERE*/
+    .contacts{
+    	display: flex;
+    	
+    	justify-content: center;
+    }
+
+
+    .telegram,.twitter{
+    background-image:linear-gradient(to bottom right,blue,red);
+	color: white;
+	text-decoration: none;
+	padding:.7em 1em ;
+	font-size: 1.1em;
+	border-radius: 1.5em;
+	font-weight: bold;
+    }
+
+	.telegram{
+		margin-left: ;}
+		.twitter{
+		margin-left:1em ;}
+
+    /*CONTACTS CASCADING ENDS HERE*/
+  
+  
+
+
+hr.bottom{
+	margin-top: 80px;
+	border: 1.5px solid var(--secondary-color);
+}
+.copy-right{
+	
+	text-align: center;
+	font-size: 1em;
+}
+
+
+@media only screen and (min-width: 712px){
+
+	.logo{
+	text-decoration: none;
+	font-weight: bold;
+	color:var(--secondary-color);
+	font-size: 2.6em;
+	cursor: pointer;
+}
+
+.intro{
+	font-size: 1.7em;}
+
+h1{
+	font-size: 5.2em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	color: var(--secondary-color);
+}
+
+.wel-come{
+	font-size: 1.3em;
+}
+
+
+	.buy-now-bttn,.audit-bttn{
+	padding:.7em 1em ;
+	font-size: 1.3em;
+	border-radius: 1.5em;
+	font-weight: bold;}
+
+	.about-line{
+	margin: 1em 18em 1em 18em;
+	border: 2px solid white;
+	}
+
+	.service{
+	border-spacing: 19px 15px;
+	margin: 0em auto;
+	width: 40em;
+	height: 30em;
+}
+
+
+
+.token-table{
+	width: 33em; 
+	height:30em;
+
+}
+.col-1,.col-2{
+	width: 30em;
+	height: 10em;
+}
+.address,.total{
+	margin-top: 3em;
+}
+.coll-1,.coll-2,.coll-3,.coll-4,.coll-5{
+	
+	height: 22em;
+	width: 20em;
+	padding: .5em;}
+
+	.c1,.c2,.c3,.c4,.c5{
+	margin-top: 9em;}
+
+
+
+}
+
+@media only screen and (min-width: 1362px){
+	body{
+		margin: 2em 1.5em;
+	
+	}
+
+	.logo{
+	color:var(--secondary-color);
+	font-size: 3em;
+	cursor: pointer;
+
+}
+.navbar{
+	margin:-1em -1.4em 0em -1.5em;
+
+}
+
+.intro{
+	font-size: 1.7em;}
+
+h1{
+	font-size: 5.2em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	color: var(--secondary-color);
+}
+
+.hero-container{
+	width: 1362;
+	margin: 0 auto;
+	display: flex;
+	text-align: left;
+}
+.hero-logo{
+	margin: 10em 0em 0em 4em;
+	width: ;
+
+
+}
+.right-col{
+	text-align: center;
+	justify-content: center;
+	margin: 2em solid black;
+}
+.float-about{
+	display: flex;
+}
+.rekt{
+	margin: 0em;
+}
+.about-bottom{
+	margin-top: 5em;
+}
+.main{
+	line-height: 2em;
+	font-size:1.2em ;
+}
+.token-metrics-container{
+     display: flex;
+     justify-content: center;
+
+}
+.t-k-box{
+	;
+}
+.token-table{
+	margin-top: -2em;
+}
+.token-metrics-word{
+	margin-left: ;
+	margin-bottom: 5em;
+}
+.about-line,.offers-line{
+	display: none;
+}
+.phase-1-list,.phase-2-list,.phase-3-list{
+
+	line-height: 1em;
+	font-size: 1.1em;
+
+}
+.phase-1-box,.phase-2-box,.phase-3-box{
+	width: 40%;
+	height: 50%;
+}
+.our-team-container{
+	display: flex;
+}
+.coll-1,.coll-2,.coll-3,.coll-4,.coll-5{
+	
+	height: 12em;
+	width: 10em;
+	padding: .1em;
+}
+
+	.c1,.c2,.c3,.c4,.c5{
+	margin-top: 4em;}
+.off-list{
+	margin-left: 6em;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1080px){
+
+
+	body{
+		margin: 2em 1.5em;
+	}
+
+	.logo{
+	color:var(--secondary-color);
+	font-size: 3em;
+	cursor: pointer;
+
+}
+.navbar{
+	margin:-1em -1.4em 0em -1.5em;
+
+}
+
+.intro{
+	font-size: 1.7em;}
+
+h1{
+	font-size: 5.2em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	color: var(--secondary-color);
+}
+
+.hero-container{
+	width: 1362;
+	margin: 0 auto;
+	display: flex;
+	text-align: left;
+}
+.hero-logo{
+	margin: 10em 0em 0em 4em;
+	width: ;
+
+
+}
+.right-col{
+	text-align: center;
+	justify-content: center;
+	margin: 2em solid black;
+}
+.float-about{
+	display: flex;
+}
+.rekt{
+	margin: 0em;
+}
+.about-bottom{
+	margin-top: 5em;
+}
+.main{
+	line-height: 2em;
+	font-size:1.2em ;
+}
+.token-metrics-container{
+     display: flex;
+     justify-content: center;
+
+}
+.t-k-box{
+	;
+}
+.token-table{
+	margin-top: -2em;
+}
+.token-metrics-word{
+	margin-left: ;
+	margin-bottom: 5em;
+}
+.about-line,.offers-line{
+	display: none;
+}
+.phase-1-list,.phase-2-list,.phase-3-list{
+
+	line-height: 1em;
+	font-size: 1.1em;
+
+}
+.phase-1-box,.phase-2-box,.phase-3-box{
+	width: 40%;
+	height: 50%;
+}
+.our-team-container{
+	display: flex;
+}
+.coll-1,.coll-2,.coll-3,.coll-4,.coll-5{
+	
+	height: 12em;
+	width: 10em;
+	padding: .1em;
+}
+
+	.c1,.c2,.c3,.c4,.c5{
+	margin-top: 4em;}
+.off-list{
+	margin-left: 6em;
+}
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1450px){
+
+		body{
+		margin: 2em 1.5em;
+	}
+
+	.logo{
+	color:var(--secondary-color);
+	font-size: 3em;
+	cursor: pointer;
+
+}
+.navbar{
+	margin:-1em -1.4em 0em -1.5em;
+
+}
+
+.intro{
+	font-size: 1.7em;}
+
+h1{
+	font-size: 5.2em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	color: var(--secondary-color);
+}
+
+.hero-container{
+	width: 1362;
+	margin: 0 auto;
+	display: flex;
+	text-align: left;
+}
+.hero-logo{
+	margin: 10em 0em 0em 4em;
+	width: ;
+
+
+}
+.right-col{
+	text-align: center;
+	justify-content: center;
+	margin: 2em solid black;
+}
+.float-about{
+	display: flex;
+}
+.rekt{
+	margin: 0em;
+}
+.about-bottom{
+	margin-top: 5em;
+}
+.main{
+	line-height: 2em;
+	font-size:1.2em ;
+}
+.token-metrics-container{
+     display: flex;
+     justify-content: center;
+
+}
+.t-k-box{
+	;
+}
+.token-table{
+	margin-top: -2em;
+}
+.token-metrics-word{
+	margin-left: ;
+	margin-bottom: 5em;
+}
+.about-line,.offers-line{
+	display: none;
+}
+.phase-1-list,.phase-2-list,.phase-3-list{
+
+	line-height: 1em;
+	font-size: 1.1em;
+
+}
+.phase-1-box,.phase-2-box,.phase-3-box{
+	width: 40%;
+	height: 50%;
+}
+.our-team-container{
+	display: flex;
+}
+.coll-1,.coll-2,.coll-3,.coll-4,.coll-5{
+	
+	height: 12em;
+	width: 10em;
+	padding: .1em;
+}
+
+	.c1,.c2,.c3,.c4,.c5{
+	margin-top: 4em;}
+.off-list{
+	margin-left: 6em;
+}
+
+}
+@media only screen and (min-width: 1360px){
+		body{
+		margin: 2em 1.5em;
+	}
+
+	.logo{
+	color:var(--secondary-color);
+	font-size: 3em;
+	cursor: pointer;
+
+}
+.navbar{
+	margin:-1em -1.4em 0em -1.5em;
+
+}
+
+.intro{
+	font-size: 1.7em;}
+
+h1{
+	font-size: 5.2em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	color: var(--secondary-color);
+}
+
+.hero-container{
+	width: 1362;
+	margin: 0 auto;
+	display: flex;
+	text-align: left;
+}
+.hero-logo{
+	margin: 10em 0em 0em 4em;
+	width: ;
+
+
+}
+.right-col{
+	text-align: center;
+	justify-content: center;
+	margin: 2em solid black;
+}
+.float-about{
+	display: flex;
+}
+.rekt{
+	margin: 0em;
+}
+.about-bottom{
+	margin-top: 5em;
+}
+.main{
+	line-height: 2em;
+	font-size:1.2em ;
+}
+.token-metrics-container{
+     display: flex;
+     justify-content: center;
+
+}
+.t-k-box{
+	;
+}
+.token-table{
+	margin-top: -2em;
+}
+.token-metrics-word{
+	margin-left: ;
+	margin-bottom: 5em;
+}
+.about-line,.offers-line{
+	display: none;
+}
+.phase-1-list,.phase-2-list,.phase-3-list{
+
+	line-height: 1em;
+	font-size: 1.1em;
+
+}
+.phase-1-box,.phase-2-box,.phase-3-box{
+	width: 40%;
+	height: 50%;
+}
+.our-team-container{
+	display: flex;
+}
+.coll-1,.coll-2,.coll-3,.coll-4,.coll-5{
+	
+	height: 12em;
+	width: 10em;
+	padding: .1em;
+}
+
+	.c1,.c2,.c3,.c4,.c5{
+	margin-top: 4em;}
+.off-list{
+	margin-left: 6em;
+}
+}
+}
+@media only screen and (min-width: 626px){
+
+			body{
+		margin: 2em 1.5em;
+	}
+
+	.logo{
+	color:var(--secondary-color);
+	font-size: 3em;
+	cursor: pointer;
+
+}
+.navbar{
+	margin:-1em -1.4em 0em -1.5em;
+
+}
+
+.intro{
+	font-size: 1.7em;}
+
+h1{
+	font-size: 5.2em;
+	font-weight: bold;
+	letter-spacing: .2em;
+	color: var(--secondary-color);
+}
+
+.hero-container{
+	width: 1362;
+	margin: 0 auto;
+	display: flex;
+	text-align: left;
+}
+.hero-logo{
+	margin: 10em 0em 0em 4em;
+	width: ;
+
+
+}
+.right-col{
+	text-align: center;
+	justify-content: center;
+	margin: 2em solid black;
+}
+.float-about{
+	display: flex;
+}
+.rekt{
+	margin: 0em;
+}
+.about-bottom{
+	margin-top: 5em;
+}
+.main{
+	line-height: 2em;
+	font-size:1.2em ;
+}
+.token-metrics-container{
+     display: flex;
+     justify-content: center;
+
+}
+.t-k-box{
+	;
+}
+.token-table{
+	margin-top: -2em;
+}
+.token-metrics-word{
+	margin-left: ;
+	margin-bottom: 5em;
+}
+.about-line,.offers-line{
+	display: none;
+}
+.phase-1-list,.phase-2-list,.phase-3-list{
+
+	line-height: 1em;
+	font-size: 1.1em;
+
+}
+.phase-1-box,.phase-2-box,.phase-3-box{
+	width: 40%;
+	height: 50%;
+}
+.our-team-container{
+	display: flex;
+}
+.coll-1,.coll-2,.coll-3,.coll-4,.coll-5{
+	
+	height: 12em;
+	width: 10em;
+	padding: .1em;
+}
+
+	.c1,.c2,.c3,.c4,.c5{
+	margin-top: 4em;}
+.off-list{
+	margin-left: 6em;
+}
+}
