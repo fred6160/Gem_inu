@@ -371,8 +371,8 @@ span{
   .coll-1,.coll-2,.coll-3,.coll-4,.coll-5{
 	border: 3px solid;
 	margin: 3em auto 3em auto;
-	height: 18em;
-	width: 16em;
+	height: 12em;
+	width: 10em;
 	border-radius: 3em;
 	text-align: center;
 	padding: .5em;
@@ -381,7 +381,7 @@ span{
 }
 .c1,.c2,.c3,.c4,.c5{
 
-	margin-top: 7em;
+	margin-top: 5em;
 }
 b{
 	color: var(--secondary-color);
